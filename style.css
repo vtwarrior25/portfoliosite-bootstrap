@@ -10,4 +10,17 @@
   }
 }
 
+.resumeDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.pdfEmbed {
+  width: 100%;
+  min-height: 30em;
+  @media (min-width: 1200px) {
+    min-height: 50em;
+    width: 90%;
+  }
+}
